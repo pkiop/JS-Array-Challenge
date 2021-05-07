@@ -2,8 +2,8 @@
 
 ## 설명
 
-문제에 대한 설명을 적는 곳입니다.
+입력받은 객채배열의 nickname을 key, name을 value로 하는 객체를 출력하세요
 
 ## Expected Output 
 
-나와야 하는 output을 적는 곳입니다.
+[ { name: '일미', age: 35 }, { name: '이미', age: 45 } ]
