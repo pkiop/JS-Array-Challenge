@@ -2,7 +2,7 @@
 
 ## 설명
 
-입력받은 객채배열의 nickname을 key, name을 value로 하는 객체를 출력하세요
+배열 원소의 age가 30이상 50미만인 사람만 있는 객체의 배열을 만드세요
 
 ## Expected Output 
 

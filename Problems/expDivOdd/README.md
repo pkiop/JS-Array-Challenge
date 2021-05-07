@@ -2,7 +2,7 @@
 
 ## 설명
 
-입력받은 객채배열의 nickname을 key, name을 value로 하는 객체를 출력하세요
+// 제곱한 후 3으로 나눈 나머지가 홀수인 것의 총 합을 구하세요.
 
 ## Expected Output 
 
