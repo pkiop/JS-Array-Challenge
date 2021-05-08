@@ -2,7 +2,8 @@
 
 ## 설명
 
+용가리라는 단어가 있으면 true 없으면 false를 출력
 
 ## Expected Output 
 
-나와야 하는 output을 적는 곳입니다.
+true
