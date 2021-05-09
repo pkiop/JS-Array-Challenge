@@ -14,3 +14,7 @@ const inputArray = [
 ];
 
 // write your codes
+let extractNameAndNickname = inputArray.reduce((acc, cur) => {
+  acc[cur.nickname] = cur.name
+  return acc
+}, {})
