@@ -48,11 +48,13 @@ const inputArray = [
 
 // 실격자 구분
 let dq = inputArray.filter((item) => {
-  return (
+  if (
     item.goe.jump.length >= baseAssignment.jump &&
     item.goe.spin.length >= baseAssignment.spin &&
     item.goe.step.length >= baseAssignment.step
-  );
+  ) {
+    return true;
+  }
 });
 
 // 점수 계산
