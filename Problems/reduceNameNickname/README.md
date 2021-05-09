@@ -4,6 +4,6 @@
 
 입력받은 객채배열의 nickname을 key, name을 value로 하는 객체를 출력하세요
 
-## Expected Output 
+## Expected Output
 
-[ { name: '일미', age: 35 }, { name: '이미', age: 45 } ]
+{ hong: '홍길동', '2li': '둘리', '1Cin': '오스트랄로피테쿠스' }
