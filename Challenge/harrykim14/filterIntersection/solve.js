@@ -10,4 +10,3 @@ function getIntersection(A, B) {
     return A.filter(el => new Set([...B]).has(el));
 }
 
-console.log(getIntersection(A, B))
