@@ -19,4 +19,9 @@ const inputArray = [
 
 // write your codes
 
+const solution = (inputArray) => {
+  return inputArray.sort((a,b)=>{
+    return a.price - b.price;
+  })
+}
 
