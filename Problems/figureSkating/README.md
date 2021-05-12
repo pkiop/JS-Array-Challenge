@@ -38,4 +38,4 @@ http://news.khan.co.kr/kh_news/khan_art_view.html?art_id=201402172146545#csidx63
 
 ## Expected Output 
 
-[ { name: '김연아', score: 1055 }, { name: '아사다 마오', score: 999 } ]
+[ { name: '김연아', score: 1055 }, { name: '아사다 마오', score: 939 } ]
