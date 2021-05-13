@@ -18,11 +18,20 @@ const inputArray = [
 ];
 // write your codes
 
-// 1. 필터 써야 될 것 같음
+// 1. else 조건이 없을 땐 undefined가 return되며 false와 같은 의미로 해석되기 때문에 좋은 방식은 아님
+// item.age >= 30 && item.age < 50 의 return값이 true or false 이므로 2번 방식으로 코딩하자
+
+// const result = inputArray.filter((item) => {
+//   if (item.age >= 30 && item.age < 50) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// });
+
+// 2. 아예 조건을 return 해주자.
 const result = inputArray.filter((item) => {
-  if (item.age >= 30 && item.age < 50) {
-    return true;
-  }
+  return item.age >= 30 && item.age < 50;
 });
 
 console.log(result);
