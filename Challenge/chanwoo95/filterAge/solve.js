@@ -18,3 +18,6 @@ const inputArray = [
 ]
 // write your codes
 
+const result = inputArray.filter( info => info.age >= 30 && info.age < 50);
+
+console.log(result);
