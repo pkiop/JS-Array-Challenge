@@ -21,9 +21,7 @@ const inputArray = [
 
 const solution = (inputArray) => {
   return inputArray.sort((a,b)=>{
-    return a.price-b.price;
-  });
+    return a.price - b.price;
+  })
 }
-
-console.log(solution(inputArray));
 
