@@ -2,14 +2,18 @@ const inputArray = [3, 29, 38, 12, 57, 74, 40, 85, 61];
 
 // write your codes
 
-const result = inputArray.reduce((acc, cur, index) => {
-  //   console.log(acc.maxValue);
-  //   console.log(`현재값: ${cur}`);
-  //   console.log(`인덱스: ${index}`);
+// 1번풀이
+const result1 = inputArray.reduce((acc, cur, idx) => {
   if (acc.maxValue > cur) {
     return acc;
   }
-  return { maxValue: cur, index };
+  return { maxValue: cur, idx };
 });
 
-console.log(result);
+// 2번풀이
+const result2 = inputArray.reduce((acc, cur, idx) => {
+  return acc > cur ? { maxValue: acc, idx: idx - 1 } : cur;
+});
+
+console.log(result1);
+console.log(result2);
