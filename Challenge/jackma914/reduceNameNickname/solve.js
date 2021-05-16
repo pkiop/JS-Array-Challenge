@@ -14,6 +14,7 @@ const inputArray = [
 ];
 
 // write your codes
+
 const result = inputArray.reduce((acc, el) => {
   return {
     ...acc,
