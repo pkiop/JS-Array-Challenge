@@ -1,6 +1,6 @@
 // write your codes
 function solution(inputArray) {
-  return inputArray.filter((el) => el % 2 === 1);
+  return inputArray.filter((el) => el % 2 === 2);
 }
 
 exports.solution = solution;
