@@ -1,9 +1,4 @@
-const inputArray = ['잠', '자', '고', '싶', '다', '용가리'];
-
 // write your codes
+function solution(inputArray) {}
 
-const solution = (inputArray) => {
-  return inputArray.includes('용가리'); 
-}
-
-console.log(solution(inputArray));
+exports.solution = solution;
