@@ -8,7 +8,7 @@ const test1 = {
   answer: [3, 4, 5],
 };
 
-describe('filterAge', () => {
+describe('filterIntersection', () => {
   test('test1', () => {
     expect(solution(test1.input.A, test1.input.B)).toEqual(test1.answer);
   });
