@@ -1,4 +1,4 @@
-name: Node.js CI
+name: 정답 검사 중...
 
 on:
   push:
