@@ -6,10 +6,10 @@
 
 - (처음 clone받으면) npm install 을 한다.
 
-1. Problems에서 풀고 싶은 문제를 Challenge 폴더의 본인 깃헙 아이디 폴더를 만들어 복붙한다.
+1. Problems에서 풀고 싶은 문제를 Challenge 폴더 본인 깃헙 아이디 폴더를 만들어 복붙한다.
 2. 문제의 README.md로 문제를 파악한다.
 3. solve.js에서 문제를 해결하는 함수를 작성한다.
-4. npm run jest 실행 후 패스하면 성공!
+4. npm run test 실행 후 패스하면 성공!
 
 ### 문제 만들기
 
