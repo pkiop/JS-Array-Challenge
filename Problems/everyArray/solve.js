@@ -1,3 +1,3 @@
-const inputArray = [2, 4, 6, 8, 10];
+function solution(inputArray) {}
 
-// write your codes
+exports.solution = solution;
