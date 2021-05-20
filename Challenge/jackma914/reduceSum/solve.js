@@ -12,5 +12,5 @@ const inputArray = [10, 3, 20, 5, 8, 60];
 
 // 106
 
-const re = inputArray.reduce((acc, num) => acc + num, 0);
-console.log(re);
+const result = inputArray.reduce((acc, num) => acc + num, 0);
+console.log(result);
