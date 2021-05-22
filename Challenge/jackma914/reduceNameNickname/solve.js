@@ -15,11 +15,11 @@ const inputArray = [
 
 // write your codes
 
-const result = inputArray.reduce((acc, el) => {
+const sss = inputArray.reduce((acc, el) => {
   return {
     ...acc,
     [el.nickname]: el.name,
   };
 }, {});
 
-console.log(result);
+console.log(sss);
