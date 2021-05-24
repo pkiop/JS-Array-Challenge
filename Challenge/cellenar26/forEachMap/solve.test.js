@@ -10,6 +10,7 @@ describe('everyArrayWithForEachMap', () => {
         expect(solution(test1.input)).toEqual(test1.answer);
     });
 
+    // 다른 테스트 케이스
     // test('숫자로만 된 배열이 아니면 false이어야 한다.', () => {
     //     expect(solution(test2.input)).toEqual(test2.answer);
     // });
