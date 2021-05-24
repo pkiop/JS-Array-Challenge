@@ -1,1 +1,0 @@
-const { solution } = require("./solve");
