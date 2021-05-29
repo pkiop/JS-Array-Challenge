@@ -11,7 +11,7 @@ const userHistory = [
 // write your codes
 function solution(inputArray) {
   const setList = new Set();
-  userHistory.map(val => val.watched.map(val => setList.add(val)));
+  userHistory.map(({ watched }) => watched.map(val => setList.add(val)));
   const list = Array.from(setList);
   return inputArray.filter(val => !list.includes(val));
 }
