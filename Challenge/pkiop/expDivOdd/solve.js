@@ -1,10 +1,9 @@
-const inputArray = [ 1, 7, 3, 4, 6 ];
+function solution(inputArray) {
+  const result = inputArray
+    .map((el) => el * el)
+    .filter((el) => el % 3 === 1)
+    .reduce((acc, el) => acc + el, 0);
+  return result;
+}
 
-// write your codes
-
-const result = inputArray.map(el => el * el)
-                            .filter(el => el % 3 === 1)
-                            .reduce((acc, el) => acc + el, 0);
-            
-console.log(result);
-
+exports.solution = solution;
