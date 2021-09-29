@@ -12,3 +12,4 @@ const result = fruits.sort(
   (a, b) => a.price - b.price || a.quantity - b.quantity
 );
 console.log(result);
+  
