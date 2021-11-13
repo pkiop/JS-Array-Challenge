@@ -1,3 +1,8 @@
-function solution(inputArray) {}
+function solution(inputArray) {
+
+
+
+
+}
 
 exports.solution = solution;
