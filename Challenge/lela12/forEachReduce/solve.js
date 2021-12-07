@@ -1,6 +1,10 @@
 // write your codes
 function solution(inputArray) {
-  return inputArray.filter((item) => item.age >= 30 && item.age < 50);
+  let sum = 0;
+  inputArray.forEach((arr) => {
+    sum += arr;
+  });
+  return sum;
 }
 
 exports.solution = solution;

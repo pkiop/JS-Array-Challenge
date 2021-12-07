@@ -1,6 +1,6 @@
 // write your codes
 function solution(inputArray) {
-  return inputArray.filter((item) => item.age >= 30 && item.age < 50);
+  return inputArray.includes("용가리");
 }
 
 exports.solution = solution;
