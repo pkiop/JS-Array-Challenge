@@ -1,6 +1,8 @@
 // write your codes
 function solution(inputArray) {
-  return inputArray.map(elem => `${elem}%`);
+  const resultArray = [];
+  inputArray.forEach(elem => resultArray.push(`${elem}%`));
+  return resultArray;
 }
 
 exports.solution = solution;
