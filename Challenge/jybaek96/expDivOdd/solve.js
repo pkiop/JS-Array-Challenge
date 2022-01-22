@@ -1,9 +1,8 @@
 function solution(inputArray) {
-    const answer = inputArray
-    .map(item => item * item)
-    .filter(item => item % 3 === 1)
-    .reduce((acc, cur) => acc + cur, 0);
-    return answer;   
+   return inputArray
+   .map(item => item*item)
+   .filter(item => item % 3 === 1)
+   .reduce((prev, curr) => prev + curr);
 }
 
 exports.solution = solution;
