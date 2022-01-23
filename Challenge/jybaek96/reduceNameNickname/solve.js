@@ -1,7 +1,7 @@
 // write your codes
 function solution(inputArray) {
     return inputArray.reduce((acc, cur) => {
-        acc[cur.name] = cur.nickname;
+        acc[cur.nickname] = cur.name;
         return acc;
     }, {});
 }
