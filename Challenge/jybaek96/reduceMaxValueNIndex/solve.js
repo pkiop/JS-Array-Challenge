@@ -1,9 +1,9 @@
 // write your codes
 function solution(inputArray) {
     let obj = {};
-    const max = inputArray.reduce((acc, cur) => acc > cur ? acc : cur);
-    obj["maxValue"] = max;
-    obj["idx"] = inputArray.indexOf(max);
+    const maxNum = inputArray.reduce((acc, cur) => acc > cur ? acc : cur, inputArray[0]);
+    obj["maxValue"] = maxNum
+    obj["idx"] = inputArray.indexOf(maxNum);
     return obj;
 }
 

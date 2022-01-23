@@ -1,6 +1,6 @@
 // write your codes
 function solution(inputArray) {
-    return inputArray.filter((item) => item === Number(item));
+    return inputArray.filter(item => typeof item === "number");
 }
 
 exports.solution = solution;
