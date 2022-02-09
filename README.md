@@ -56,5 +56,5 @@ describe('everyArray', () => {
     expect(solution(test2.input)).toEqual(test2.answer);
   });
 });
-V;
+;
 ```
