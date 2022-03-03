@@ -10,15 +10,13 @@
 //   answer: 168,
 // };
 
-const inputArray = [2, 3, 6, 8, 10];
+// const inputArray = [2, 3, 6, 8, 10];
+function solution(inputArray) {
+  const result = inputArray
+    .map((el) => el * el)
+    .filter((el) => el % 3 === 1)
+    .reduce((acc, el) => acc + el, 0);
+  return result;
+}
 
-let answer = inputArray.reduce((acc, cur) => {
-
-  let arr = (cur * cur) % 3;
-  console.log(arr);
-  // console.log(cur);
-}, 0)
-
-// console.log(answer);
-
-
+exports.solution = solution;
