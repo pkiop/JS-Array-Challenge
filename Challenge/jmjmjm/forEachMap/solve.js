@@ -5,6 +5,6 @@ const answer = [];
 inputArray.forEach(e => {
     let val = e+'';
     answer.push(val.concat('%'))
-})
+});
 
 console.log(answer);
