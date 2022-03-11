@@ -9,9 +9,9 @@ const userHistory = [
 ];
 
 const advList = [ '동원F&B', '정관장', 'KT', 'BBQ', '그랑사가', '농심', '딱좋은데이', '빙그레', '쌍용자동차', '켈로그코리아' ];
+let allAdv = [];
 
-// const answer = userHistory.watched.forEach(e => {
-//   console.log(e);
-// })
+userHistory.forEach(el => allAdv.push(...el.watched));
+const answer = advList.filter(e => !allAdv.includes(e));
 
-console.log(userHistory.length);
+console.log(answer);
