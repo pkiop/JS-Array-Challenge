@@ -8,7 +8,10 @@ const userHistory = [
   { date: '2020-11-09', watched: ['KT', '그랑사가', '빙그레'] },
 ];
 
-// write your codes
-function solution(inputArray) {}
+const advList = [ '동원F&B', '정관장', 'KT', 'BBQ', '그랑사가', '농심', '딱좋은데이', '빙그레', '쌍용자동차', '켈로그코리아' ];
 
-exports.solution = solution;
+// const answer = userHistory.watched.forEach(e => {
+//   console.log(e);
+// })
+
+console.log(userHistory.length);
