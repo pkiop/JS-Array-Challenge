@@ -7,4 +7,5 @@ let answer = inputArray.map(e => e ** 2)
                 .reduce((acc, cur) => {
                     return acc + cur
                 }, 0);
+                
 console.log(answer);
