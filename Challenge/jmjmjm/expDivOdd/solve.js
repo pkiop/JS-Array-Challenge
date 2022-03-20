@@ -2,10 +2,11 @@
 
 const inputArray = [2, 3, 6, 8, 10];
 
-let answer = inputArray.map(e => e ** 2)
-                .filter(e => e%3 == 1)
-                .reduce((acc, cur) => {
-                    return acc + cur
-                }, 0);
-                
+let answer = inputArray
+  .map((e) => e ** 2)
+  .filter((e) => e % 3 == 1)
+  .reduce((acc, cur) => {
+    return acc + cur;
+  }, 0);
+
 console.log(answer);
