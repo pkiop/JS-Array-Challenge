@@ -1,6 +1,12 @@
 // write your codes
 function solution(inputArray) {
-  return inputArray.filter((el) => el >= 40);
+  const result = [];
+  inputArray.forEach((el) => {
+    if (el >= 40) {
+      result.push(el);
+    }
+  });
+  return result;
 }
 
 exports.solution = solution;
