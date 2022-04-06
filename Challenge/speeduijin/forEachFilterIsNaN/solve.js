@@ -1,0 +1,12 @@
+// write your codes
+function solution(inputArray) {
+  let answer = [];
+  inputArray.forEach((el) => {
+    if (isNaN(el) === false && String(el) !== el) {
+      answer.push(el);
+    }
+  });
+  return answer;
+}
+
+exports.solution = solution;
