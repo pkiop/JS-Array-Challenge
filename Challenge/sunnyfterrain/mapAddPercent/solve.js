@@ -1,5 +1,6 @@
+// write your codes
 function solution(inputArray) {
-  return inputArray.every((e) => e % 2 === 0);
+  return inputArray.map((e) => `${e}%`);
 }
 
 exports.solution = solution;

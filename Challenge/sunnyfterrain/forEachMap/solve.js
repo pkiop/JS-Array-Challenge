@@ -1,6 +1,8 @@
 // write your codes
 function solution(inputArray) {
-  return inputArray.map((e) => `${e}%`);
+  let answer = [];
+  inputArray.forEach((item) => answer.push(item + '%'));
+  return answer;
 }
 
 exports.solution = solution;
