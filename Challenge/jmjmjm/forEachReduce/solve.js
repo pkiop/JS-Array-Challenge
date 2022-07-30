@@ -4,6 +4,6 @@ let answer = '';
 
 answer = inputArray.reduce((a, c) => {
     return a+c
-}, 0)
+}, 0);
 
 console.log(answer);

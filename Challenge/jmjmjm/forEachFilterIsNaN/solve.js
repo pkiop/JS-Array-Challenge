@@ -6,6 +6,7 @@ inputArray.forEach(e => {
     if (Number.isInteger(e)) {
         answer.push(e)
     }
-})
+});
+
 console.log(answer);
 
