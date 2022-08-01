@@ -11,6 +11,5 @@ function solution(inputArray) {
     }, { maxValue: -999999999999999999999, idx: -1 })
     return ans
 }
-const a = [2, -20, 21, -874, 99, -16, -29, 99]
-console.log(solution(a))
+
 exports.solution = solution;
