@@ -1,11 +1,11 @@
 // write your codes
 function solution(inputArray) {
-    let arr = [];
-    inputArray.forEach(element => {
-        arr.push(element + '%')
-    }
-    );
-    return arr
+  let arr = [];
+  inputArray.forEach(element => {
+    arr.push(element + '%')
+  }
+  );
+  return arr
 }
 /*  let answer = [];
   inputArray.forEach((el) => {
@@ -13,6 +13,5 @@ function solution(inputArray) {
   })
   return answer;
 */
-const input = [100, 10, 20, 40]
-console.log(solution(input))
+
 exports.solution = solution;

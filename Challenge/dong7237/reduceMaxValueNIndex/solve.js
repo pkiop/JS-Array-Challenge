@@ -4,13 +4,13 @@ function solution(inputArray) {
         if (p.maxValue < a) {
             return {
                 maxValue: a,
-                idx: i,
+                idx: i
             }
         }
         return p
-    }, { maxValue: 0, idx: -1 })
+    }, { maxValue: -999999999999999999999, idx: -1 })
     return ans
 }
-const a = [3, 29, 138, 12, 57, 74, 40, 85, 61]
+const a = [2, -20, 21, -874, 99, -16, -29, 99]
 console.log(solution(a))
 exports.solution = solution;

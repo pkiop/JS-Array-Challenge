@@ -10,7 +10,4 @@ function solution(inputArray) {
     })
 }
 
-
-const a = ['홍길동', '둘리', '루피']
-console.log(solution(a))
 exports.solution = solution;

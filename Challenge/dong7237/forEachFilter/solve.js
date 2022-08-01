@@ -8,6 +8,5 @@ function solution(inputArray) {
     })
     return arr
 }
-const a = [100, 10, 20, 40]
-console.log(solution(a))
+
 exports.solution = solution;

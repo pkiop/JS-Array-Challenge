@@ -6,6 +6,5 @@ function solution(inputArray) {
     });
     return result
 }
-const a = [100, 10, 20, 40]
-console.log(solution(a))
+
 exports.solution = solution;

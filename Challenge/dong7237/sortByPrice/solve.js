@@ -1,24 +1,17 @@
 // write your codes
 function solution(inputArray) {
-    inputArray.sort((a, b) => {
-        if (a.price > b.price) return 1
-        if (a.price === b.price) return 0
-        if (a.price < b.price) return -1
+    return inputArray.sort((a, b) => {
+        return a.price - b.price
     })
-    return inputArray
-}
 
-const input = [
+}
+const a = [
     {
         name: '사과',
         price: 1000,
     },
     {
         name: '수박',
-        price: 5000,
-    },
-    {
-        name: '복숭아',
         price: 5000,
     },
     {
@@ -30,5 +23,5 @@ const input = [
         price: 10000,
     },
 ]
-console.log(solution(input))
+console.log(solution(a))
 exports.solution = solution;
