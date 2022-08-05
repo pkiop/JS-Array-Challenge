@@ -8,5 +8,4 @@ function solution(inputArray) {
     .filter((i) => i % 3 === 1)
     .reduce((acc, i) => acc + i);
 }
-console.log(solution([2, 3, 6, 8, 10]));
 exports.solution = solution;
