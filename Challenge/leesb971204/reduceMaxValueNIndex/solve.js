@@ -11,7 +11,10 @@ function solution(inputArray) {
     return last;
   });
 
-  return `maxValue: ${maxValue}, idx: ${idx}`;
+  const newObj = {};
+  newObj["maxValue"] = maxValue;
+  newObj["idx"] = idx;
+  return newObj;
 }
 
 exports.solution = solution;
