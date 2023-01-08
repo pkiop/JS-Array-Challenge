@@ -4,7 +4,7 @@
   "description": "## 자바스크립트 배열을 마스터 해보자!",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./Challenge"
+    "test": "jest ./Challenge/j1min"
   },
   "repository": {
     "type": "git",
