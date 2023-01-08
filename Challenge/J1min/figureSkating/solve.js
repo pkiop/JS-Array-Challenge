@@ -10,6 +10,7 @@ const baseAssignment = {
   step: 1,
 };
 
+// 실격여부 판별하는 함수
 function isDisqualification(baseAssignment, player) {
   if (player.goe.jump.length < baseAssignment.jump) return false;
   if (player.goe.spin.length < baseAssignment.spin) return false;
@@ -17,8 +18,8 @@ function isDisqualification(baseAssignment, player) {
   return true;
 }
 
+// 최고 3개 점수만 가져오는 함수
 function getBestScore(scoreArray) {
-  // 실격이 아닌 경우 최고 3개 기록의 합만 가져옴
   scoreArray = scoreArray.sort((a, b) => a - b).slice(-3);
   console.log(scoreArray);
   return scoreArray.reduce(
@@ -27,6 +28,7 @@ function getBestScore(scoreArray) {
   );
 }
 
+// 점수 계산하는 함수
 function calculateScore(baseScore, player) {
   const score =
     baseScore.jump * getBestScore(player.goe.jump) +
@@ -38,11 +40,9 @@ function calculateScore(baseScore, player) {
 }
 
 function solution(inputArray) {
-  let answer = [];
+  let answer = []; // 정답 배열
   for (const player of inputArray) {
     if (isDisqualification(baseAssignment, player)) {
-      // 실격이 아닌 선수라면
-      // 이름과 계산된 점수 push
       answer.push({
         name: player.name,
         score: calculateScore(baseScore, player),
