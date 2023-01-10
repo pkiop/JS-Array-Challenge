@@ -1,7 +1,5 @@
 function solution(inputArray) {
-  let answer = [];
-  inputArray.forEach((value) => (value >= 40 ? answer.push(value) : null));
-  return answer;
+  return inputArray.filter((value) => value >= 40);
 }
 
 exports.solution = solution;

@@ -40,16 +40,14 @@ function calculateScore(baseScore, player) {
 }
 
 function solution(inputArray) {
-  let answer = []; // 정답 배열
-  for (const player of inputArray) {
-    if (isDisqualification(baseAssignment, player)) {
-      answer.push({
-        name: player.name,
-        score: calculateScore(baseScore, player),
-      });
-    }
-  }
-  return answer;
+  return inputArray
+    .filter((input) => isDisqualification(baseAssignment, input)) // 실격자 필터링
+    .map((input) => { // 비실격자 점수 계산
+      return {
+        name: input.name,
+        score: calculateScore(baseScore, input),
+      };
+    });
 }
 
 exports.solution = solution;

@@ -1,8 +1,8 @@
 function solution(inputArray) {
-  for (const data of inputArray) {
-    if (data % 2) return false
-  }
-  return true
+  return (
+    inputArray.length ===
+    inputArray.filter((input) => (input % 2 ? null : input)).length // 원본 배열, 필터한 배열 길이 비교
+  );
 }
 
 exports.solution = solution;

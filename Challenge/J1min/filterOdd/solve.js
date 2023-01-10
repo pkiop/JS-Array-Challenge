@@ -1,6 +1,6 @@
 // write your codes
 function solution(inputArray) {
-  return inputArray.filter((value) => value % 2)
+  return inputArray.filter((input) => input % 2)
 }
 
 exports.solution = solution;

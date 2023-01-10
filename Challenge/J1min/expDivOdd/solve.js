@@ -1,10 +1,8 @@
 function solution(inputArray) {
-  let answer = 0;
-  for (let data of inputArray) {
-    data = data ** 2;
-    if (data % 3 === 1) answer += data;
-  }
-  return answer;
+  return inputArray
+    .filter((input) => input ** 2 % 3 === 1) // 조건 필터링
+    .map((input) => input ** 2) // 조건에 맞게 값 변경
+    .reduce((total, currnt) => total + currnt); // 배열의 합
 }
 
 exports.solution = solution;

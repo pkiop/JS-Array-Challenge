@@ -3,9 +3,7 @@ function isNumber(value) {
 }
 
 function solution(inputArray) {
-  let answer = [];
-  inputArray.forEach((value) => (isNumber(value) ? answer.push(value) : null));
-  return answer;
+  return inputArray.filter((input) => isNumber(input));
 }
 
 exports.solution = solution;
