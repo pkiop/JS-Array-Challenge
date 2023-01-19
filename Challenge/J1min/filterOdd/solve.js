@@ -1,4 +1,3 @@
-// write your codes
 function solution(inputArray) {
   return inputArray.filter((input) => input % 2)
 }
