@@ -42,12 +42,10 @@ function calculateScore(baseScore, player) {
 function solution(inputArray) {
   return inputArray
     .filter((input) => isDisqualification(baseAssignment, input)) // 실격자 필터링
-    .map((input) => { // 비실격자 점수 계산
-      return {
-        name: input.name,
-        score: calculateScore(baseScore, input),
-      };
-    });
+    .map((input) => ({
+      name: input.name,
+      score: calculateScore(baseScore, input),
+    }));
 }
 
 exports.solution = solution;
