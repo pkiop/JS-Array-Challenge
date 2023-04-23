@@ -4,7 +4,7 @@
   "description": "## 자바스크립트 배열을 마스터 해보자!",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./Challenge/byu0324/recommendAd"
+    "test": "jest ./Challenge/byu0324/spreadOperatorMAxValue"
   },
   "repository": {
     "type": "git",
