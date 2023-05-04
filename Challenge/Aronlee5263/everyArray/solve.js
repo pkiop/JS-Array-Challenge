@@ -1,3 +1,5 @@
+const inputArray = [2, 4, 6, 8, 10];
+
 function solution(inputArray) {
   return inputArray.every((arr) => arr % 2 === 0);
 }
