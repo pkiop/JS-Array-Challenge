@@ -5,3 +5,5 @@ function solution(inputArray) {
 }
 
 exports.solution = solution;
+
+//aron5263 커밋
