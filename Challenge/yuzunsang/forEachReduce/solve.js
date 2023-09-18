@@ -1,9 +1,10 @@
 // write your codes
 function solution(inputArray) {
-    let result = 0;
-    inputArray.forEach((el) => result += el);
+    let sum = 0;
 
-    return result;
+    inputArray.forEach((item) => sum += item);
+
+    return sum;
 }
 
 exports.solution = solution;

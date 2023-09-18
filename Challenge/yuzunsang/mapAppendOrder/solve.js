@@ -1,14 +1,10 @@
 // write your codes
 function solution(inputArray) {
-    let result = [];
+    let answer = [];
 
-    inputArray.map((el, idx) => result.push({
-        name : el,
-        order : idx + 1,
-    }
-    ));
+    inputArray.map((el, idx) => answer.push({ name : el, order : idx + 1 }));
 
-    return result;
+    return answer;
 }
 
 exports.solution = solution;

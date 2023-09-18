@@ -1,9 +1,10 @@
 // write your codes
 function solution(inputArray) {
-    const result = [];
-    inputArray.forEach((el) => result.push(`${el}%`));
+    const answer = [];
+    
+    inputArray.forEach((item) => answer.push(`${item}%`));
 
-    return result;
+    return answer;
 }
 
 exports.solution = solution;
