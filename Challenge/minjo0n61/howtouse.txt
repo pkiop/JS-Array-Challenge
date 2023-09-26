@@ -1,0 +1,10 @@
+1.jest 설치
+>npm install --save-dev jest
+2.함수 작성
+3.테스트 실행
+>npm run test
+4.pullrequest 하기
+Summary 형식: Solve:___문제 이름
+1)vs code 왼쪽 branch 표시 눌러서 진행하기
+2)Github Desktop에서 진행하기
+5.원래 pkiop 레포지토리에 넣기
