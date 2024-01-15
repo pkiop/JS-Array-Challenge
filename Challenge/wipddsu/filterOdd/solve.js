@@ -4,5 +4,3 @@ function solution(inputArray) {
 }
 
 exports.solution = solution;
-
-console.log(solution());
